@@ -10,7 +10,7 @@ class DB
     public function __construct()
     {
         $env=include '.env.php';
-        $this->conn=new mysqli('localhost','homestead','secret','testing_nginx');
+        $this->conn=new mysqli('***ost','*****ad','********t','testing_nginx');
     }
 
     /**
